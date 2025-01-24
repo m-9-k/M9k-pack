@@ -1,0 +1,19 @@
+{
+    "pack": {
+        "pack_format": 34,
+		"supported_formats": [34, 46],
+        "description": "\u00A7l\u00A75M9k \u00A7cm\u00A76o\u00A7et\u00A7ah\u00A7ba\u00A73f\u00A79o\u00A71c\u00A75k\u00A7da\u00A7r\n\u00A7o1.21.4"
+    },
+	"overlays": {
+		"entries": [
+			{
+				"formats": {"min_inclusive": 42, "max_inclusive": 46},
+				"directory": "overlay_42"
+			},
+			{
+				"formats": {"min_inclusive": 46, "max_inclusive": 46},
+				"directory": "overlay_46"
+			}
+		]
+	}
+}
